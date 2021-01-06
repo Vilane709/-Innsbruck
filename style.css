@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Abel', sans-serif;
+}
+main {
+	margin: 0 10%;
+}
+h2 {
+	color: #2A3D8F;
+}
+a {
+	text-decoration: none;
+	color: #2A3D8F;
+}
+nav {
+	display: flex;
+}
+.link_logo {
+	display: block;
+	width: 20%;
+	text-align: right;
+	padding-top: 5px;
+} 
+nav ul {
+	display: flex;
+	width: 80%;
+	justify-content: space-around;
+}
+nav li {
+	list-style-type: none;
+} 
+nav img {
+	width: 40px;
+}
+header {
+	background-image: url(img/innsbruck1.png);
+	height: 555px;
+}
+header h1 {
+	margin: 0;
+	color: white;
+	padding-top: 300px;
+	padding-left: 60px;
+	font-size: 80px;
+}
+footer {
+	background-color: #abbbcc;
+	display: flex;
+	justify-content: space-around;
+}
+.futor_social {
+	display: flex;
+	list-style-type: none;
+}
+footer a {
+	margin: 0 5px;
+}
+.hashtag {
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.about_numbers {
+	display: flex;
+}
+aside  {
+	background-image: url(img/skier.png);
+	background-size: 200px;
+	width: 200px;
+	background-repeat: no-repeat;
+	margin-left: 23%;
+}
+aside p {
+	text-transform: uppercase;
+	position: relative;
+}
+aside a {
+	background-color: white;
+	background: rgba(143, 143, 143, 0.47);
+	display: block;
+	width: 100%;
+	text-align: right;
+	margin: 0;
+}
+figcaption {
+	color: white;
+	background-color: gray;
+	text-align: center;
+}
+figure {
+	width: 67%;
+	border: solid silver 1px;
+	margin-left: 0;
+}
+figure img {
+	width: 100%;
+}
+.galery li {
+	display: flex;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	vertical-align: center;
+}
+.galery h3 {
+	background-color: #89e08c;
+	margin: 0;
+	color: white;
+	width: 30%;
+	text-align: center;
+	padding-top: 13%;
+}
+.galery img {
+	width: 70%;
+}
+.galery ul {
+	padding: 0;
+}
+iframe {
+	width: 100%;
+}
+th, td {
+	border: black solid 1px;
+	text-align: center;
+}
+table {
+	border-collapse: collapse;
+	margin: 0 auto 8px;
+}
+th {
+	background-color: rgb(32, 46, 92);
+	color: white; 
+}
