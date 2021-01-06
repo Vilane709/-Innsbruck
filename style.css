@@ -130,3 +130,9 @@ th {
 	background-color: rgb(32, 46, 92);
 	color: white; 
 }
+.galery h3 {
+	transition: .6s font-size;
+}
+.galery h3:hover {
+	font-size: 30px;
+}
